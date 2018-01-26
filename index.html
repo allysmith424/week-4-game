@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<title>Star Wars RPG</title>
+</head>
+
+<body>
+
+	<header>
+		<h1>Star Wars RPG</h1>
+	</header>
+
+	<div class="container">
+
+		<div id="commentary">
+
+		</div>
+
+		<h3 id="charactersHeading"><h3>
+		<div id="yourCharacter">
+
+			<div class="player potentialCharacter" id="r2d2">
+				<div class="playerName">
+					<h2>R2D2</h2>
+				</div>
+				<div class="playerImgDiv" id="r2d2Image">
+					<img class="playerImg" src="assets/images/r2d2.png">
+				</div>
+				<div class="life">
+					<p><span id="r2d2Life">150</span></p>
+				</div>
+			</div>
+
+			<div class="player potentialCharacter" id="c3po">
+				<div class="playerName">
+					<h2>C3PO</h2>
+				</div>
+				<div class="playerImgDiv" id="c3poImage">
+					<img class="playerImg" src="assets/images/c3po.png">
+				</div>
+				<div class="life">
+					<p><span id="c3poLife">150</span></p>
+				</div>
+			</div>
+
+			<div class="player potentialCharacter" id="jarJar">
+				<div class="playerName">
+					<h2>JAR JAR BINKS</h2>
+				</div>
+				<div class="playerImgDiv" id="jarJarImage">
+					<img class="playerImg" src="assets/images/jarJarBinks.png">
+				</div>
+				<div class="life">
+					<p><span id="jarJarLife">150</span></p>
+				</div>
+			</div>
+
+			<div class="player potentialCharacter" id="ewok">
+				<div class="playerName">
+					<h2>EWOK</h2>
+				</div>
+				<div class="playerImgDiv" id="ewok">
+					<img class="playerImg" src="assets/images/ewok.png">
+				</div>
+				<div class="life">
+					<p><span id="ewokLife">150</span></p>
+				</div>
+			</div>
+
+		</div>
+
+		<h3 id="enemiesHeading">Enemies<h3>
+		<div id="enemies"></div>	
+
+		<h3>Defender<h3>
+		<div id="defender"></div>
+
+		<button id="attackBtn">ATTACK</button>
+
+	</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
